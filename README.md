@@ -6,7 +6,7 @@
 
 ## # 实现思路
 
-  #### 使用python语言进行逻辑操作：####
+  #### 使用python语言进行逻辑操作： ####
   
   1. 主要变量定义：
   
@@ -46,7 +46,7 @@
    * 双眠5
    * 冲4眠五
    
-  #### 调用pygame对图像进行操作：####
+  #### 调用pygame对图像进行操作： ####
   
   1. pygame.display.set_mode：申请屏幕
   2. pygame.draw.rect：绘制矩形
@@ -57,17 +57,17 @@
   7. pygame.mouse.get_pressed()获取鼠标点击事件，pygame.mouse.get_pos()获取鼠标点击位置
   8. pygame.draw.circle(),用于输出棋子
   
-  #### 当前bug：####
+  #### 当前bug： ####
   
   1. 在左边棋盘落子的时候会出现重复落子情况
   
   ## # 图片
   
-  #### 棋盘 ####
+  #### 棋盘
    
    ![ipso](http://api.ipso.live/uploads/3fc642ee2db8da08c707433cc4bb684c.png)
 
-  ####　胜利过程　####
+  ####　胜利过程
    
    ![](http://api.ipso.live/uploads/21da859b7b1d1c30f4fe8b38f4fad8b0.png)
   
